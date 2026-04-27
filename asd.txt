@@ -1,0 +1,43 @@
+"
+Práctica 2: 
+
+SNS
+SQS
+
+A2A orquestando pipilines mandando notificaciones, mandar notificaciones entre sistemas
+A2P mandar notificaciones al usuario directamente 
+
+
+P2: 
+Subir un video en 1080p y que automaticamente se tenga que hacer 720p, 480
+
+FFMPEG
+bucket para subir video
+bucket para subir 720 y 480
+metadatos
+
+
+Usar IaC
+Concurrencia reservada
+
+opcional: 
+AWS Step Function
+"
+
+Tengo estas indicaciones, es para mi practica de computo en la nube
+
+Necesito que hagas una planeación para el cumplimiento de esta Práctica
+Consiste en hacer un mini youtube, donde podamos subir un video y automaticamente se haga a 720p y 480p
+Podemos meter un frontend muy básico con react, básico
+Nos ayudaremos con docker
+
+Realiza la planeación y ve definiendo conceptos que usaremos, cada concepto que esté fuera de lo común, definelo, el objetivo es que aprenda mucho a traves de esta Práctica
+
+Tenemos que realizar esto utilizando localstack para simular AWS
+
+algo así vi en clase: 
+
+
+docker run --rm -it -p 127.0.0.1:4566:4566 -p 127.0.0.1:4510-4559:4510-4559 -v /var/run/docker.sock:/var/run/docker.sock localstack/localstack
+
+entonces haz la planeación 

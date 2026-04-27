@@ -1,0 +1,18 @@
+# AWS SDK para Python (interacción con S3, SQS, SNS, DynamoDB, Lambda)
+boto3==1.34.100
+botocore==1.34.100
+
+# CLI de AWS apuntando a LocalStack
+awscli==1.32.100
+awscli-local==0.22.0
+
+# LocalStack CLI (levantar/detener LocalStack desde terminal)
+localstack==3.4.0
+
+# Variables de entorno desde archivos .env
+python-dotenv==1.0.1
+
+# Testing
+pytest==8.2.0
+pytest-mock==3.14.0
+moto[s3,sqs,sns,dynamodb]==5.0.10   # Mock de servicios AWS para unit tests
