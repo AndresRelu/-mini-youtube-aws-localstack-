@@ -16,7 +16,7 @@ bucket para subir video
 bucket para subir 720 y 480
 metadatos
 
-
+a
 Usar IaC
 Concurrencia reservada
 
